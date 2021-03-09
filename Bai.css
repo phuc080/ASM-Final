@@ -1,0 +1,241 @@
+body{
+    padding: 0px;
+    margin: 0 auto;
+    width: 1000px;
+    background-color:whitesmoke;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.container>header{
+    height: 0px;
+    background-image: url(hinhcoca.png);
+    background-size: 100% 100%;
+    padding-bottom: 25%;
+}
+.container>nav{
+    line-height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+.container>nav>a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+.container nav a:hover{
+    color:red;
+}
+.container>article{
+    min-height: 200px;
+    width: 75%;
+    background-color:whitesmoke;
+    float: left ;}
+.container>aside{
+    background-color:whitesmoke;
+    min-height: 200px;
+    width: 25%;
+    float:right;
+}
+.container footer{
+    border-top: 5px double orangered ;
+    line-height: 50px;
+    background-color: plum;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+.topnav
+{width: 250px;
+vertical-align: middle;
+white-space: nowrap;
+position: relative;
+}
+.image{
+    width: 25%;
+    float: left;
+    margin-bottom: 20px;
+}
+  .noidung{
+      width: 70%;
+      float: right;
+      padding-left: 10px;
+      bottom: 20px;
+  }
+  .ban-tin{
+      clear: both;
+  }
+
+
+ul.vmenu{
+    padding:0 px;
+    margin:2 px;
+   list-style:none;
+    border-radius:3px ;
+   box-shadow:0 0 2px white;}
+   ul.vmenu a{
+    background:url('Chaicoca.png') no-repeat 5px center;
+    display: block;
+    border-bottom: 1 px dotted red (32, 32, 150);
+    color:seashell ;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 60px;}
+ ul.vmenu a:hover{
+    background: url('cole.jpg') no-repeat 10px center;
+    border-bottom: 1 px dotted red;
+    background-color:red (32, 32, 150);
+    color:black;
+    font-weight: bold;}
+
+
+
+
+.top-right{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    background-color:whitesmoke (141, 169, 253);
+    padding: 5px 10px 5px 20px ;
+
+}
+.top-right a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+.company-info{
+    bottom: 30px;
+    left: 15px;
+}
+
+
+
+
+
+.menu>ul>li{
+    position: relative;
+    display: inline-block;
+}
+.menu>ul>li>a{
+    display: block;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0 px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: black;
+    text-align: center;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 10px;
+    line-height: 40px;
+}
+.menu ul ul a{
+    display: block;
+    color: royalblue;
+    font-size: larger;
+    line-height: 30px;
+    font-variant: small-caps;
+    padding: 0 10px;
+}
+.menu>ul>li:hover{
+    color:red;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0 px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px white;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: rgb(32, 32, 150);
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    padding: 0 10px;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color: yellowgreen;
+    color:pink;
+}
+ 
+
+
+.col-25{
+    width: 30%;
+    float: left;
+}
+.prod{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin:5px;
+    padding:5px;
+    text-align: center;
+}    
+.prod>.name{
+    font-variant: small-caps;
+    color:orangered;
+    font-weight: bold;
+}
+   
+.prod>.price{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: orangered;
+    bottom: 5px;
+    position: relative;
+    left: 5px;
+}
+.prod .images{
+    max-width: 98%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.form-group label{
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.form-control:focus{
+    background-color: yellow;
+    box-shadow:0 0 3px red;
+    border:1px solid yellow;
+}
+.form-button{
+    padding:8px 30px;
+    outline:none;
+    border:none;
+    border-radius:20px;
+    font-weight:bold;
+    background-color: white;
+    color:orangered ;
+    box-shadow:inset 0 0 20px blue;
+}
+.form-button:hover{
+    color:blue;
+    box-shadow:inset 0 0 20px orangered;}
+.form-button:disabled{
+    color:darkgray;
+    box-shadow:inset 0 0 20px gray;
+}
